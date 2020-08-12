@@ -15,7 +15,7 @@ var snake;
     fruit.pickLocation();
     //console.log(fruit);
 
-    var timer = window.setInterval(() =>{
+    window.setInterval(() =>{
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         fruit.draw();
         snake.update();
