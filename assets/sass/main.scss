@@ -26,12 +26,6 @@
 		small-to-xlarge:  '(min-width: 481px) and (max-width: 1680px)'
 	));
 
-// Base.
-
-	@import 'base/reset';
-	@import 'base/page';
-	@import 'base/typography';
-
 // Component.
 
 	@import 'components/row';
