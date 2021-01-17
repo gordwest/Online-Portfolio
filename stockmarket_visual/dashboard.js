@@ -1,4 +1,4 @@
-function makeLineChart() {
+function generateCharts() {
     // append the svg object to the body of the page
     var svg = d3.select("#LINE_CHART")
         .append("svg")
