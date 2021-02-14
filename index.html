@@ -62,16 +62,6 @@
 							</ul>
 						</article>
 						<article>
-							<a href="https://github.com/gordwest/AmazonNLP" class="image"><img
-									src="assets/images/NLP.png" alt="" /></a>
-							<h3>Amazon Text Analysis</h3>
-							<p>Get a comprehensive analysis of all the reviews for specific item on Amazon. Developed in
-								R.</p>
-							<ul class="actions">
-								<li><a href="https://github.com/gordwest/AmazonNLP" class="button">More</a></li>
-							</ul>
-						</article>
-						<article>
 							<a href="https://github.com/gordwest/StockMarketVisual" class="image"><img
 									src="assets/images/stocks.png" alt="" /></a>
 							<h3>Stock Market Visualization</h3>
@@ -92,32 +82,37 @@
 					</header>
 					<div class="posts">
 						<article>
-							<a href="" class="image"><img src="assets/images/Macbook(16in) Vertical Stand.png" alt="" /></a>
-							<h3>Vertical Laptop Stand</h3>
-							<p>Holds a laptop vertically. Spec'd for a 16 inch Macbook pro.
+							<!-- <a href="" class="image"><img src="assets/images/Macbook(16in) Vertical Stand.png" alt="" /></a> -->
+							<div id="model"><model-viewer src="assets/glb/Adjustable Stand (Combined).glb" auto-rotate="" camera-controls=""> </model-viewer></div>
+							<br>
+							<h3>Adjustable Laptop Stand</h3>
+							<p>Holds a laptop vertically. Adjustable to fit laptops with a thickness between 20-30mm.
 							</p>
 							<ul class="actions">
-								<li><a href="assets/stl files/Macbook(16in) Vertical Stand.stl" class="button">Download Stl</a></li>
+								<li><a href="assets/stl/Adjustable Laptop Stand.zip" class="button">Download Stl</a></li>
 							</ul>
 						</article>
 						<article>
-							<a href="" class="image"><img src="assets/images/Coasters.png" alt="" /></a>
-							<h3>Car Logo Coasters</h3>
-							<p>Car coasts of some popular brands (Honda, Mazda, Volkswagen).</p>
-							<ul class="actions">
-								<li><a href="assets/stl files/Coasters.zip" class="button">Download Stl</a></li>
-							</ul>
-						</article>
-						<article>
-							<a href="" class="image"><img src="assets/images/Headset Hook.png" alt="" /></a>
+							<div id="model"><model-viewer src="assets/glb/Headset Hook.glb" auto-rotate="" camera-controls=""> </model-viewer></div>
+							<br>
 							<h3>Headset Hook</h3>
 							<p>Hang a headset off the side of a table. Spec'd for a 26mm routered desk top.</p>
 							<ul class="actions">
-								<li><a href="assets/stl files/Headset Hook.stl" class="button">Download Stl</a></li>
+								<li><a href="assets/stl/Headset Hook.stl" class="button">Download Stl</a></li>
+							</ul>
+						</article>
+						<article>
+							<div id="model"><model-viewer src="assets/glb/yeetskrt.glb" auto-rotate="" camera-controls=""> </model-viewer></div
+							<br>
+							<h3>Multi Directional Text</h3>
+							<p>Displays two identical length words or phrases. It's either "YEET" or "SKRT" depending on how you look at it.</p>
+							<ul class="actions">
+								<li><a href="assets/stl/Coasters.zip" class="button">Download Stl</a></li>
 							</ul>
 						</article>
 					</div>
 				</section>
+
 				<!-- Section (About Me) -->
 				<section id="banner">
 					<div class="content" id="aboutMe">
@@ -185,6 +180,8 @@
 		</div>
 	</div>
 
+	<!-- Loads model-viewer for modern browsers -->
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
