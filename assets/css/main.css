@@ -24,8 +24,12 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline; }
 
 model-viewer {
-  height: 370px;
-  width: 500px;
+  border-radius: 0.375em;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  height: 13em;
+  width: 23em;
   background-color:rgba(202, 202, 202, 0.25);
  }
 
@@ -368,6 +372,7 @@ ul.actions {
   display: flex;
   cursor: default;
   list-style: none;
+  position: absolute; 
   margin-left: -1em;
   padding-left: 0; }
   ul.actions li {
